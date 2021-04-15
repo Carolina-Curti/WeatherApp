@@ -1,34 +1,31 @@
 h1,
 h2,
+p,
 small,
-p {
+li {
   color: magenta;
 }
 
-h2 {
-  width: 179px;
-  height: 84px;
-  font-family: DIN2014;
-  color: #f9f7f8;
-  font-size: 41.67px;
-  font-weight: 700;
-  line-height: 6.631px;
-  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.35);
-  transform: scale(2.865,2.865);
-}
-.cloudyicon {
+.weather {
+  width: 100%;
   position: relative;
-  width: 240px;
-  height: 158px;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  color: white;
+}
+.temp {
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.cloudsimage {
-  width: 1078px;
-  height: 961px;
-  position: relative;
-  top: 50px;
-  left: 25%;
+a {
+  color: white;
+  text-decoration: underline;
 }
 
 .rainy,
@@ -41,4 +38,40 @@ h2 {
   top: 20px auto;
   padding: 20px 20px 20px 20px;
   left: 0;
+}
+
+.searchnew {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+button {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: magenta;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button:hover {
+  background-color: rgba(300, 0, 0, 1);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
