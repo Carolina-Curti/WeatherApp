@@ -92,24 +92,31 @@ h1 {
   font-size: 15px;
   top: -20px;
 }
+
 .btn {
   border: 0;
   margin-top: 3px;
+  color: white;
 }
-.btn-success,
-.btn-success:visited,
-.btn-success:focus {
+
+.btn-current,
+.btn-current:visited,
+.btn-current:focus {
   background-color: blueviolet;
 }
 
-.btn-success:hover {
+.btn-current:hover {
   background-color: #18ece5;
 }
 
 .btn-secondary {
-    color: #fff;
-    background-color: #0c7ada;
+  color: #fff;
+  background-color: #0c7ada;
 }
+.btn-secondary:hover {
+  background-color: #18ece5;
+}
+
 .open-source-link {
   padding: 20px 0 0 40px;
   color: orange;
