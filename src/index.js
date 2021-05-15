@@ -92,7 +92,15 @@ function searchCity(city) {
 
 function handleSubmit(event) {
   event.preventDefault();
-  let city = document.querySelector("#city").value;
+  let city = document.querySelector("#city-input").value;
+  let inputCity = document.querySelector("#city-input");
+  let h1 = document.querySelector("h1");
+  if (inputCity.value) {
+    h1.innerHTML = `${inputCity.value}`;
+  } else {
+    h1.innerHTML = null;
+    alert("Please type a city");
+  }
   searchCity(city);
 }
 
