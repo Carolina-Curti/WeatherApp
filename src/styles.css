@@ -1,87 +1,112 @@
-h1,
-h2,
-p,
-small,
-li {
-  color: magenta;
+body,
+p {
+  color: rgb(114, 8, 8);
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
-
-.weather {
-  width: 100%;
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.temp {
-  display: block;
-  position: absolute;
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 a {
-  color: white;
-  text-decoration: underline;
+  color: rgb(27, 6, 162);
+  text-decoration: none;
+}
+a:hover {
+  color: #8e22d6;
 }
 
-.rainy,
-.rainysunny,
-.rainyevening,
-.cloudyevening1,
-.cloudyevening2 {
-  position: relative;
-  width: 100px;
-  top: 20px auto;
-  padding: 20px 20px 20px 20px;
-  left: 0;
+h1 {
+  font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  font-size: 2.5rem;
 }
 
-.searchnew {
-  width: 100%;
+.container {
+  margin: 20px auto;
+  max-width: 1000px;
 }
 
-ul {
-  list-style-type: none;
-}
-button {
+.card {
+  padding: 50px;
+  border-radius: 50px;
   border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
+  background: linear-gradient(#f6f33c, #4ecfd1);
+  box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 15%);
+}
+
+.current-city {
+  float: right;
+  padding: 100px;
+}
+
+.form-group {
+  margin-left: 0 !important;
+  padding-bottom: 30px;
+  width: 75%;
+}
+
+.form-inline .form-group {
+  display: inline-block;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+.temp-current p,
+.temp-future p {
+  color: blueviolet;
+}
+
+.temp-current p {
+  font-size: 150px;
+}
+
+.temp-future p {
+  font-size: 40px;
+}
+
+.temp-current sup,
+.temp-future sup {
+  position: relative;
+  font-size: 40px;
+  top: -80px;
+}
+
+.temp-current p {
+  display: inline;
+}
+
+.temp-current img {
+  position: relative;
+  top: -50px;
+}
+
+.temp-current .active {
+  color: blueviolet;
+  cursor: default;
+}
+
+#forecast {
   text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: magenta;
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
-.button:hover {
-  background-color: rgba(300, 0, 0, 1);
+.temp-future sup {
+  font-size: 15px;
+  top: -20px;
+}
+.btn {
+  border: 0;
+  margin-top: 3px;
+}
+.btn-success,
+.btn-success:visited,
+.btn-success:focus {
+  background-color: blueviolet;
 }
 
-.button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+.btn-success:hover {
+  background-color: #18ece5;
 }
 
-
-.button:hover {
-  background-color: rgba(300, 0, 0, 1);
-}
-
-.button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+.open-source-link {
+  padding: 20px 0 0 40px;
+  color: orange;
 }
