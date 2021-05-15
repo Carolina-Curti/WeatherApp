@@ -106,6 +106,10 @@ h1 {
   background-color: #18ece5;
 }
 
+btn-secondary {
+    color: #fff;
+    background-color: #0c7ada;
+}
 .open-source-link {
   padding: 20px 0 0 40px;
   color: orange;
