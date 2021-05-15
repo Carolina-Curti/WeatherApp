@@ -98,7 +98,7 @@ function handleSubmit(event) {
   if (inputCity.value) {
     h1.innerHTML = `${inputCity.value}`;
   } else {
-    h1.innerHTML = null;
+    h1.innerHTML = 'Vanvouer';
     alert("Please type a city");
   }
   searchCity(city);
