@@ -123,9 +123,8 @@ h1 {
 }
 
 @media (max-width: 900px) {
-  .form-group {
-    margin-left: 0 !important;
-    padding-bottom: 30px;
-    width: 25%;
+  .container {
+    margin: 20px auto;
+    max-width: 900px;
   }
 }
