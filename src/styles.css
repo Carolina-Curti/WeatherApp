@@ -127,4 +127,7 @@ h1 {
     margin: 20px auto;
     max-width: 900px;
   }
+  .img {
+    max-width: 25%;
+  }
 }
