@@ -121,3 +121,11 @@ h1 {
   padding: 20px 0 0 40px;
   color: orange;
 }
+
+@media (max-width: 900px) {
+  .form-group {
+    margin-left: 0 !important;
+    padding-bottom: 30px;
+    width: 25%;
+  }
+}
