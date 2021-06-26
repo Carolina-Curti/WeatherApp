@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">   
+          <div class="current-city">
+             <h1></h1>
+            <p>
+            <span id="date"><strong>Fri</strong> 11:45</span> |
+            <span id="weather"></span><br />
+            <strong>Humidity</strong> <span id="humidity"></span>%,
+            <strong>Wind</strong> <span id="wind"></span> km/h
+            </p>
+           </div>
+          <div class="clearfix temp-current">
+            <p class="float-left">
+              <span id="temperature"></span
+              ><sup><a class="active" href="#" id="tempCelsius">°C</a> |
+              <a href="#" id="tempFahrenheit">°F</a><sup/>
+            </p>
+            <img src="" alt="" id="icon" class="float-left" />
+           </div>
+        
+          <div class="row" id="forecast"></div>
+        </div>
+        <form id="search-form" class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <input
+              id="city"
+              type="text"
+              class="form-control shadow-sm"
+              placeholder="Type a city in the world..."
+              autocomplete="off"
+            />
+          </div>
+          <button type="submit" class="btn btn-secondary mb-2 shadow-sm">
+            Search
+          </button>
+          <button class="btn btn-current mb-2 shadow-sm" id="current-location">
+            Current
+          </button>
+        </form>
+      </div>
+      <div class="open-source-link">
+        <small>
+          <a
+            href="https://github.com/Carolina-Curti/WeatherApp"
+            target="_blank"
+          >
+            Open-source code </a
+          >, by Carolina Curti
+        </small>
+      </div>
+    </div>
+  </body>
+
+  <script src="src/index.js"></script>
+</html>
