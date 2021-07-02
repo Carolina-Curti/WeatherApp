@@ -122,15 +122,7 @@ h1 {
   color: orange;
 }
 @media (max-width: 900px) {
-  .row p,
-  a,
-  .row img {
-    font-size: 1rem;
-    object-position: center;
-    --bs-gutter-y: 0;
-  }
-  #search-form,
-  .forecastdays {
+  #forecast {
     max-width: 100%;
     font-size: 1rem;
   }
