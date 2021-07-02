@@ -122,6 +122,7 @@ h1 {
   color: orange;
 }
 @media (max-width: 200px) {
+  body,
   #forecast {
     font-size: xx-small;
     word-wrap: normal;
