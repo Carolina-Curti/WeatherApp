@@ -122,7 +122,9 @@ h1 {
   color: orange;
 }
 @media (max-width: 200px) {
-  .card {
-    font-size: small;
+  #forecast {
+    font-size: xx-small;
+    word-wrap: normal;
+    text-align: center;
   }
 }
