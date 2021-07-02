@@ -127,6 +127,7 @@ h1 {
   .row img {
     font-size: 1rem;
     object-position: center;
+    --bs-gutter-y: 0;
   }
   #search-form,
   .forecastdays {
