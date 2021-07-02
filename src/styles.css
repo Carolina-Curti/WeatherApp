@@ -27,14 +27,6 @@ h1 {
   border: 0;
   background: linear-gradient(#f6f33c, #4ecfd1);
   box-shadow: 4px 4px 10px 1px rgb(0 0 0 / 15%);
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
 }
 
 .current-city {
@@ -133,5 +125,15 @@ h1 {
   .col-2 {
     flex: 0 0 auto;
     font-size: small;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
   }
 }
