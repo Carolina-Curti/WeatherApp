@@ -132,12 +132,6 @@ h1 {
 @media (max-width: 500px) {
   #forecast {
     max-width: 100%;
-    flex: 0 0 auto;
-    width: 16.666667%;
     font-size: 12px;
-  }
-
-  .card {
-    word-wrap: none;
   }
 }
