@@ -129,7 +129,7 @@ h1 {
   padding: 20px 0 0 40px;
   color: orange;
 }
-@media (max-width: 500px) {
+@media (max-width: 200px) {
   .col-2 {
     flex: 0 0 auto;
     width: 16.6666666667%;
