@@ -122,18 +122,16 @@ h1 {
   color: orange;
 }
 @media (max-width: 200px) {
-  .col-2 {
-    flex: 0 0 auto;
-    font-size: small;
-  }
   .card {
     position: relative;
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
     min-width: 0;
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+    font-size: small;
   }
 }
