@@ -125,12 +125,12 @@ h1 {
   .row p,
   a,
   .row img {
-    font-size: 8px;
+    font-size: 1 rem;
     object-position: center;
   }
   #search-form,
   .forecastdays {
     max-width: 100%;
-    font-size: 8px;
+    font-size: 1 rem;
   }
 }
