@@ -134,6 +134,11 @@ h1 {
     max-width: 100%;
     font-size: 1rem;
   }
+  .col-2 {
+    flex: 0 0 auto;
+    width: 16.666667%;
+    font-size: 12px;
+  }
   .card {
     word-wrap: none;
   }
