@@ -129,7 +129,7 @@ h1 {
   padding: 20px 0 0 40px;
   color: orange;
 }
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   #forecast {
     max-width: 100%;
     font-size: 1rem;
