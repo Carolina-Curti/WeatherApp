@@ -127,5 +127,6 @@ h1 {
     font-size: xx-small;
     word-wrap: normal;
     text-align: center;
+    box-sizing: content-box;
   }
 }
